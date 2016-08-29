@@ -1,4 +1,4 @@
-package com.guideview;
+package com.guideviewlibrary;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -6,12 +6,12 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.view.View;
 
-import com.guideview.bean.MarginInfo;
-import com.guideview.bean.ViewPosInfo;
-import com.guideview.listener.OnDismissListener;
-import com.guideview.utils.MeasureUtils;
-import com.guideview.view.GuideDialog;
-import com.guideview.view.GuideView;
+import com.guideviewlibrary.bean.MarginInfo;
+import com.guideviewlibrary.bean.ViewPosInfo;
+import com.guideviewlibrary.listener.OnDismissListener;
+import com.guideviewlibrary.utils.MeasureUtils;
+import com.guideviewlibrary.view.GuideDialog;
+import com.guideviewlibrary.view.GuideView;
 
 import java.util.ArrayList;
 import java.util.List;

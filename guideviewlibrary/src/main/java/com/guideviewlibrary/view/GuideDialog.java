@@ -1,4 +1,4 @@
-package com.guideview.view;
+package com.guideviewlibrary.view;
 
 import android.app.Dialog;
 import android.content.Context;

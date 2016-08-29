@@ -1,4 +1,4 @@
-package com.guideview;
+package com.guideviewlibrary;
 
 /**
  * Created by Roy

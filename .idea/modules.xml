@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GuideView.iml" filepath="$PROJECT_DIR$/GuideView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/guideview/guideview.iml" filepath="$PROJECT_DIR$/guideview/guideview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guideviewlibrary/guideviewlibrary.iml" filepath="$PROJECT_DIR$/guideviewlibrary/guideviewlibrary.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.guideview.view;
+package com.guideviewlibrary.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,10 +13,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.guideview.Constants;
-import com.guideview.Guide;
-import com.guideview.bean.ViewPosInfo;
-import com.guideview.utils.MeasureUtils;
+import com.guideviewlibrary.Constants;
+import com.guideviewlibrary.Guide;
+import com.guideviewlibrary.bean.ViewPosInfo;
+import com.guideviewlibrary.utils.MeasureUtils;
+
 
 /**
  * Created by Roy
@@ -125,7 +126,7 @@ public class GuideView extends FrameLayout {
                     canvas.drawRoundRect(rect, boardOffest, boardOffest, mPaint);
                     break;
                 case Guide.HIGHLIGHT_CIRCLE:
-                    radius = vWidth < vHeight ? vWidth / 2 + 2 * boardOffest : vHeight / 2 + 2 * boardOffest;
+                    radius = vWidth > vHeight ? vWidth / 2 + 2 * boardOffest : vHeight / 2 + 2 * boardOffest;
                     canvas.drawCircle(left + vWidth / 2, top + vHeight / 2, radius, mPaint);
                     break;
                 case Guide.HIGHLIGHT_OVAL:

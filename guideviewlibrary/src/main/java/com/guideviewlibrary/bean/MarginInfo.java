@@ -1,4 +1,4 @@
-package com.guideview.bean;
+package com.guideviewlibrary.bean;
 
 import android.view.Gravity;
 
